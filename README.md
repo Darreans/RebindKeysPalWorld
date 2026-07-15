@@ -66,4 +66,3 @@ The build script downloads the pinned Palworld UE4SS release, verifies its SHA-2
 - Palworld updates can change its UI or input code and may require a matching mod update.
 - Back up important saves before using mods, as Palworld itself recommends.
 
-The older standalone Windows app source remains in this workspace for reference, but it is not included in the native-mod release.
