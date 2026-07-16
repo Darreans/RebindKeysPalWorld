@@ -1,0 +1,14 @@
+bin/
+obj/
+release/
+.cache/
+.vs/
+.agents/
+.codex/
+GitHub-Upload/
+NativeMod/dev/
+*.user
+*.suo
+*.log
+**/force-weapon-reset-once.flag
+**/dev-selftest.flag
