@@ -50,7 +50,7 @@ New-Item -ItemType Directory -Path (Join-Path $stagePath "Payload\Win64\ue4ss\Mo
 
 $installerSource = Join-Path $PSScriptRoot "NativeMod\Installer"
 Copy-Item -Path (Join-Path $installerSource "*") -Destination $stagePath -Recurse
-Copy-Item -LiteralPath (Join-Path $PSScriptRoot "LICENSE.txt") -Destination (Join-Path $stagePath "LICENSE.txt")
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot "LICENSE") -Destination (Join-Path $stagePath "LICENSE")
 
 $payloadWin64 = Join-Path $stagePath "Payload\Win64"
 Copy-Item -LiteralPath (Join-Path $runtimeExtract "dwmapi.dll") -Destination (Join-Path $payloadWin64 "dwmapi.dll")

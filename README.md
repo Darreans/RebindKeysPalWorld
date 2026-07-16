@@ -105,7 +105,7 @@ This is a development workflow only. Normal installation and updates should be p
 
 ## License and third-party runtime
 
-The mod and installer source are available under the MIT License in `LICENSE.txt`.
+The mod and installer source are available under the MIT License in `LICENSE`.
 
 Packaged releases bundle the Okaetsu/RE-UE4SS Palworld runtime. Its license is included inside the player package at `Payload/Win64/ue4ss/LICENSE`.
 
